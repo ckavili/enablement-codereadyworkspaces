@@ -6,13 +6,13 @@ projects:
   - name: todolist
     source:
       type: git
-      location: 'https://github.com/rht-labs/todolist.git'
-      branch: master
+      location: 'https://github.com/eformat/todolist.git'
+      branch: 4.3
   - name: ci-cd
     source:
       type: git
-      location: 'https://github.com/rht-labs/enablement-ci-cd.git'
-      branch: master
+      location: 'https://github.com/eformat/enablement-ci-cd.git'
+      branch: 4.3
 components:
   - type: cheEditor
     alias: theia-editor
