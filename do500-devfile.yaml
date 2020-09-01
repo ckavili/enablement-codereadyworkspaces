@@ -7,13 +7,13 @@ projects:
     source:
       type: git
       location: 'https://github.com/eformat/todolist.git'
-      branch: master
+      branch: '4.3'
   - name: ci-cd
     clonePath: enablement-ci-cd
     source:
       type: git
       location: 'https://github.com/eformat/enablement-ci-cd.git'
-      branch: master      
+      branch: '4.3'      
 components:
   - type: cheEditor
     alias: theia-editor
