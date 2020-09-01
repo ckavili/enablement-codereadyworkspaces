@@ -6,14 +6,14 @@ projects:
   - name: todolist
     source:
       type: git
-      location: 'https://github.com/eformat/todolist.git'
-      branch: '4.3'
+      location: 'https://github.com/ckavili/todolist.git'
+      branch: 'master'
   - name: ci-cd
     clonePath: enablement-ci-cd
     source:
       type: git
-      location: 'https://github.com/eformat/enablement-ci-cd.git'
-      branch: '4.3'      
+      location: 'https://github.com/ckavili/enablement-ci-cd.git'
+      branch: 'master'      
 components:
   - type: cheEditor
     alias: theia-editor
